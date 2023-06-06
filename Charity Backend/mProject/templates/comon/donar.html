@@ -1,0 +1,26 @@
+{% load static %}
+{% block body %} 
+
+<div class="donation_box">
+
+    <form action="" method="POST">
+      {% csrf_token %} 
+       <div class="mail_box">
+          <input type="text" class="mail_text" placeholder="Your Name" name="name">
+          <input type="mail" class="mail_text" placeholder="Email" name="mail">
+          <input type="text" class="mail_text" placeholder="Phone" name="number">
+          
+       </div>
+       <br>
+       <div class="mail_box">
+         <input class="btn btn-outline-success mx-auto col-4" type="submit" value="Send">
+       </div>
+
+       
+       
+    </form>
+
+ </div>
+
+
+{% endblock %}

@@ -1,0 +1,323 @@
+
+{% extends 'comon/base.html' %}
+{% load static %}
+
+{% block body %}
+      <!-- banner section start -->
+      <div class="banner_section layout_padding">
+         <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+               </ol>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <h1 class="banner_taital">Help Poor Child</h1>
+                           <p class="banner_text">Help poor children by donating to reputable charities. Every contribution makes a difference in providing them with education, healthcare, and a chance for a brighter future. Together, we can create positive change. </p>
+                           <div class="read_bt"><a href="#">Read More</a></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="col-sm-12">
+                        <h1 class="banner_taital">Help Palestine </h1>
+                        <p class="banner_text">Help Palestine by supporting humanitarian efforts. Your assistance can provide aid, resources, and hope to those affected by conflicts and crises. Stand with them in their journey towards peace and stability. </p>
+                        <div class="read_bt"><a href="#">Read More</a></div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="col-sm-12">
+                        <h1 class="banner_taital">Help Poor Family </h1>
+                        <p class="banner_text">Make a difference in the lives of impoverished families. Your support can provide them with essential resources, access to education, and opportunities for a better future. Together, we can help break the cycle of poverty. </p>
+                        <div class="read_bt"><a href="#">Read More</a></div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="col-sm-12">
+                        <h1 class="banner_taital">Help Turkey Man </h1>
+                        <p class="banner_text">Make a difference in the lives of impoverished families. Your support can provide them with essential resources, access to education, and opportunities for a better future. Together, we can help break the cycle of poverty. </p>
+                        <div class="read_bt"><a href="#">Read More</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="donation_box">
+            <h4 class="donation_taital">Contact For Donation</h4>
+
+            {% include "comon/donar.html" %}
+
+
+         </div>
+         <div class="fundraise_section">
+            <div class="fundraise_section_main">
+               <div class="row">
+                  <div class="col-lg-4">
+                     <div class="box_main">
+                        <div class="icon_1"><img src="{% static 'images/icon-1.png' %}"></div>
+                        <h4 class="volunteer_text">VOLUNTEERS</h4>
+                        <p class="lorem_text">Volunteers Catalysts of positive change, transforming lives selfless action.</p>
+                        <div class="join_bt"><a href="#">Join Now</a></div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="box_main active">
+                        <div class="icon_1"><img src="{% static 'images/icon-2.png' %}"></div>
+                        <h4 class="volunteer_text">FUNDRAISE</h4>
+                        <p class="lorem_text">Fundraising for charity Empowering causes, creating impact, and changing lives.</p>
+                        <div class="join_bt"><a href="#">Join Now</a></div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4">
+                     <div class="box_main">
+                        <div class="icon_1"><img src="{% static 'images/icon-3.png' %}"></div>
+                        <h4 class="volunteer_text">DONATION</h4>
+                        <p class="lorem_text">Charity donations Transforming lives, providing hope, and making a difference.</p>
+                        <div class="join_bt"><a href="#">Join Now</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <!-- banner section end -->
+
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-8">
+                  <h2 class="about_taital">about Chrity</h2>
+                  <p class="about_text">Our charity, celebrating ten years of service, aims to support and uplift 50 thousand families in need. Through various initiatives, we provide vital resources, including food, healthcare, education, and shelter. With your generous contributions, we can continue our mission of ensuring the well-being of these families. <br><br> Together, we strive to create a sustainable impact, empowering individuals and communities for a better future. Join us in our journey as we work tirelessly to bring smiles, hope, and stability to those facing adversity. Your support will make a profound difference in the lives of thousands, inspiring a brighter tomorrow.
+                  </p>
+                  <div class="readmore_bt"><a href="#">Read more</a></div>
+               </div>
+               <div class="col-sm-4">
+                  <div class="about_img"><img src="{% static 'images/about-img.png' %}"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section end -->
+      <!-- mission section start -->
+      <div class="mission_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="mission_taital">Mission causes</h1>
+                  <p class="mission_text">Our charity's mission is to alleviate poverty, provide essential resources, and empower families in need, creating a pathway to a better quality of life and fostering sustainable, positive change. </p>
+               </div>
+            </div>
+         </div>
+         <div class="mission_section_2">
+            <div class="row">
+               <div class="offset-md-2"></div>
+               <div class="col-md-5">
+                  <div class="container_main">
+                     <img src="{% static 'images/img-1.png' %}" alt="Avatar" class="image">
+                     <div class="overlay">
+                        <div class="text">
+                           <h4 class="some_text">Bangladesh may face famine</h4>
+                           <p class="alteration_text">While people are disoriented by rising commodity prices around the world, more bad news is looming.Various kinds of warnings are now being uttered about possible food shortages in the year 2023.</p>
+                           <div class="btn_main">
+                              <div class="donate_bt"><a href="#">Read More</a></div>
+                              <div class="donate_bt"><a href="\donate">Donate Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="container_main">
+                     <img src="{% static 'images/img-2.png' %}" alt="Avatar" class="image">
+                     <div class="overlay">
+                        <div class="text">
+                           <h4 class="some_text">Sri Lanka Have Running famine</h4>
+                           <p class="alteration_text">There is a severe shortage of fuel oil in the country. Thousands of people lined up to collect oil. The government of the country has deployed the army in the petrol pumps of the country to handle the situation.</p>
+                           <div class="btn_main">
+                              <div class="donate_bt"><a href="#">Read More</a></div>
+                              <div class="donate_bt"><a href="\donate">Donate Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="mission_section_2">
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="container_main">
+                     <img src="{% static 'images/img-3.png' %}" alt="Avatar" class="image">
+                     <div class="overlay">
+                        <div class="text">
+                           <h4 class="some_text">Palestinian War Israil</h4>
+                           <p class="alteration_text">Israel had launched air raids on several areas across the Gaza Strip, killing at least 13 people, including six women and four children, according to the Palestinian Ministry of Health.</p>
+                           <div class="btn_main">
+                              <div class="donate_bt"><a href="#">Read More</a></div>
+                              <div class="donate_bt"><a href="\donate">Donate Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-5">
+                  <div class="container_main">
+                     <img src="{% static 'images/img-4.png' %}" alt="Avatar" class="image">
+                     <div class="overlay">
+                        <div class="text">
+                           <h4 class="some_text">whichalteration in some </h4>
+                           <p class="alteration_text">Alteration in some form, by injected humour, or randomised words whichalteration in some form, by injected humour, or randomised words which</p>
+                           <div class="btn_main">
+                              <div class="donate_bt"><a href="#">Read More</a></div>
+                              <div class="donate_bt"><a href="\donate">Donate Now</a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="offset-md-2"></div>
+            </div>
+         </div>
+      </div>
+      <!-- mission section end -->
+
+
+      <!-- news section start -->
+      <div class="news_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="news_taital">Why we ?</h1>
+                  <p class="news_text">going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+               </div>
+            </div>
+            <div class="news_section_2">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="news_img"><img src="{% static 'images/news-img.png' %}"></div>
+                  </div>
+                  <div class="col-md-6">
+                     <h1 class="give_taital">Our Vission World Free Education </h1>
+                     <p class="ipsum_text">Row 1: Education is a fundamental right that should be accessible to all, regardless of socioeconomic backgrounds. Our mission is to provide a comprehensive, globally accessible education system, completely free of charge. By removing financial barriers, we aim to empower individuals around the world with knowledge and skills to unlock their full potential.
+                     <br><br>    Our comprehensive education system covers a wide range of subjects, including mathematics, sciences, languages, humanities, and vocational skills. Through online platforms, interactive learning materials, and virtual classrooms, we strive to deliver high-quality education to learners of all ages, from primary to tertiary levels.
+                     
+                     </p>
+                     <h5 class="raised_text">Raised: $6B    <span class="goal_text">Goal: $7B</span></h5>
+                     <div class="donate_btn_main">
+                        <div class="readmore_btn"><a href="#">Read More</a></div>
+                        <div class="readmore_btn_1"><a href="\donate">Donate Now</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- news section end -->
+      <!-- events section start -->
+      <div class="events_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="news_taital">Donation help seminar</h1>
+                  <p class="news_text">going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+               </div>
+            </div>
+            <div class="events_section_2">
+               <div class="row">
+                  <div class="col-md-5">
+                     <div class="img_7"><img src="{% static 'images/image-7.png' %}" class="img_7"></div>
+                     <div class="date_bt">
+                        <div class="date_text active"><a href="#">15</a></div>
+                        <div class="date_text"><a href="#">July</a></div>
+                     </div>
+                  </div>
+                  <div class="col-md-7">
+                     <h3 class="give_taital_1">Bangladesh may face famine in 2023</h3>
+                     <p class="ipsum_text_1">Dhaka: Prime Minister Sheikh Hasina has expressed fears that famine and economic recession may occur more widely in the world in 2023. Along with that, thinking about the future, he urged the citizens of Bangladesh to bring every inch of land under production.</p>
+                     <h5 class="raised_text_1">Raised: $159,753 <span class="goal_text">Goal: $200,000</span></h5>
+                     <div class="donate_btn_main">
+                        <div class="readmore_btn"><a href="#">Read More</a></div>
+                        <div class="readmore_btn_1"><a href="/donate">Donate Now</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="events_section_2">
+               <div class="row">
+                  <div class="col-md-5">
+                     <div class="img_7"><img src="{% static 'images/image-8.png' %}" class="img_7"></div>
+                     <div class="date_bt">
+                        <div class="date_text active"><a href="#">10</a></div>
+                        <div class="date_text"><a href="#">FEB</a></div>
+                     </div>
+                  </div>
+                  <div class="col-md-7">
+                     <h1 class="give_taital_1">Need Help in Palestine</h1>
+                     <p class="ipsum_text_1">The global Palestinian think tank, a resource for policymakers & civil society worldwide. Independent, non-partisan, and non-profit, a think tank without borders or walls. Palestinian viewpoints. Policy analysis. Types: Policy analysis, Policy insights, Civil society, Economics.</p>
+                     <h5 class="raised_text_1">Raised: $741,236   <span class="goal_text">Goal: $800,000</span></h5>
+                     <div class="donate_btn_main">
+                        <div class="readmore_btn"><a href="#">Read More</a></div>
+                        <div class="readmore_btn_1"><a href="/donate">Donate Now</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- events section end -->
+
+      <!-- donate section start -->
+      <div class="donate_section layout_padding">
+         <div class="container">
+            <h1 class="donate_taital">Donat pepole Says </h1>
+            <div class="donate_taital_main">
+               <div id="main_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="donate_left">
+                           <div class="client_img"><img src="{% static 'images/client1.png' %}"></div>
+                        </div>
+                        <div class="donate_right">
+                           <h3 class="client_name_text">Bill Gates</h3>
+                           <p class="dummy_text">Topping the list is Microsoft co-founder Bill Gates, who gave $5 billion to the Bill & Melinda Gates Foundation to back the grantmaker’s work in global health, development, policy and advocacy, and US education. 67 year old Bill Gates, whose net worth is estimated at nearly $103 billion as per Forbes list and $109 billion as per Bloomberg Billionaires Index, had garnered attention in July 2022 when he had announced that he was giving $20 billion to the foundation he runs with his former wife, Melinda French Gates. </p>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="donate_left">
+                           <div class="client_img"><img src="{% static 'images/client1.png' %}"></div>
+                        </div>
+                        <div class="donate_right">
+                           <h3 class="client_name_text">Ann and John Doerr</h3>
+                           <p class="dummy_text">Second in the list of biggest donations are Ann and John Doerr, with a $1.1 billion donation through their Benificus Foundation to Stanford University for launching the Stanford Doerr School of Sustainability. It is an effort to tackle the world’s most urgent climate and sustainability challenges. The new school will focus on eight areas of scholarship: climate change, Earth and planetary sciences, energy technology, sustainable cities, the natural environment, food and water security, human society and behavior, and human health and the environment.</p>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="donate_left">
+                           <div class="client_img"><img src="{% static 'images/client3.png' %}"></div>
+                        </div>
+                        <div class="donate_right">
+                           <h3 class="client_name_text">Warren Buffett</h3>
+                           <p class="dummy_text">Warren Buffett gave stock valued at nearly $474.3 million to the Susan Thompson Buffett Foundation, a grantmaker Warren Buffett established in 1964 to manage the family’s charitable giving that was later renamed for his first wife, who died in 2004.A representative for Buffett confirmed the gift was a special one-time contribution that Buffett decided to make in late November rather than one of the annual donations he makes to the Susan Thompson Buffett Foundation, and several other grantmakers, which are payments toward multibillion-dollar pledges he announced in 2006.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                  <i class="fa fa-angle-right"></i>
+                  </a>
+                  <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                  <i class="fa fa-angle-left"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- donate section end -->
+      
+      {% endblock %}
